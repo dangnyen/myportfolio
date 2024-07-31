@@ -1,0 +1,151 @@
+/* Global */
+body {
+    font-family: Koho, Helvetica, sans-serif;
+    margin: 100px 128px;
+}
+
+
+
+/* Header Navigation */
+.logo {
+    position: absolute;
+    width: 52px;
+    height: 56px;
+    left: 32px;
+    top: 60px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    position: absolute;
+    width: 94px;
+    height: 250px;
+    right: 32px;
+    top: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menuList {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+}
+
+li {
+    padding: 12px;
+}
+
+/* Sections */
+.about-me-start {
+    margin: 100px 128px;
+}
+
+.about-me-philosophy {
+    margin: 100px 128px;
+    padding: 100px;
+}
+
+/* About me start */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    gap: 36px;
+    margin-bottom: 100px;
+
+}
+
+.heroSection {
+    display: flex;
+    flex-direction: row;
+    justify-items: stretch;
+    gap: 36px;
+    padding: 0px 24px;
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+}
+
+.me {
+    width: 400px;
+    height: 300px;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+} 
+
+p {
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+}
+
+.social-media {
+    display: flex;
+    gap: 36px;
+}
+
+.naviScrollSet {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.naviButton {
+    font-size: 36px;
+    text-align: center;
+}
+
+.vectorAlign {
+    display: flex;
+    justify-content: center;
+}
+
+/* About me Philosophy */
+
+.philosophy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 60px;
+}
+
+.philosophy2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 60px;
+}
+
+span{
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    position: flex;
+    text-align: center;
+}
