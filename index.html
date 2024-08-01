@@ -14,7 +14,7 @@
 </head>
 
 <header>
-    <img class="logo" src="images/Logo.svg">
+    <div class="logoPosition"><img class="logo" src="images/Logo.svg"></div>
     <nav class="menu">
         <ul class="menuList">
             <li><a href="">Home</a></li>
@@ -27,10 +27,10 @@
 </header>
 
 <body>
-
+    
     <section class="about-me-start">
         <div class="content">
-            <h1>I’m David Nguyen, Hello</h1>
+            <h1>I&#x2019m David Nguyen, Hello</h1>
             <div class="heroSection">
                 <div class="leftContent">
                     <p>
@@ -54,8 +54,9 @@
                 <img class="email" src="images/Email.svg"> <img class="linkedin" src="images/Linkedin.svg">
             </div>
             <div class="naviScrollSet">
-                <div class="naviButton">
-                    Design Philosophy<br />&amp; Skillset
+                <div class="naviButton"><a href="#philosophy">
+                        Design Philosophy<br>&amp; Skillset
+                    </a>
                 </div>
                 <span class="vectorAlign"><img class="vector" src="images/Vector 1.svg"></span>
             </div>
@@ -63,7 +64,7 @@
     </section>
 
     <section class="about-me-philosophy">
-        <div class="philosophy">
+        <div class="philosophy" id="philosophy">
             <span>
                 With only 4 contact points (head, wrist, body, throat) to score in Kendo, you have to be creative to
                 score those points.
@@ -78,9 +79,9 @@
             <img src="images/kendo1.png">
             <span>
                 Iterative Design involves continuous testing and refining based on feedback. In Kendo the concept
-                of Keiko (practice) embodies continuous improvement. Practitioners constantly refine their techniques
-                and
-                strategies through regular training, similar to iterative processes in UX.
+                of Keiko (practice) embodies continuous improvement.
+                <b>Practitioners constantly refine their techniques and strategies through regular training, similar to
+                    iterative processes in UX.</b>
             </span>
         </div>
     </section>

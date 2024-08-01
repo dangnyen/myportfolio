@@ -1,12 +1,25 @@
 /* Global */
-body {
-    font-family: Koho, Helvetica, sans-serif;
-    margin: 100px 128px;
+html {
+    scroll-behavior: smooth;
 }
 
-
+body {
+    font-family: Koho, Helvetica, sans-serif;
+    margin: 50px 128px;
+}
 
 /* Header Navigation */
+
+/* .logoPosition {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    left: 32px;
+    top: 60px;
+    
+} */
+
 .logo {
     position: absolute;
     width: 52px;
@@ -43,33 +56,40 @@ li {
     padding: 12px;
 }
 
+li:hover{
+    text-decoration: underline;
+}
+
 /* Sections */
 .about-me-start {
-    margin: 100px 128px;
+    position: flex;
+    flex-direction: column;
 }
 
 .about-me-philosophy {
-    margin: 100px 128px;
-    padding: 100px;
+    position: flex;
+    flex-direction: column;
 }
 
 /* About me start */
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: stretch;
+    justify-content: center;;
     gap: 36px;
     margin-bottom: 100px;
-
 }
 
 .heroSection {
     display: flex;
     flex-direction: row;
-    justify-items: stretch;
     gap: 36px;
-    padding: 0px 24px;
 }
 
 .leftContent {
@@ -77,12 +97,14 @@ li {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-width: 400px;
+    max-width: 600px;
+    padding: 0px 12px;
 }
 
 .me {
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .rightContent {
@@ -90,8 +112,9 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
-} 
+    max-width: 600px;
+    padding: 0px 12px;
+}
 
 p {
     font-size: 20px;
@@ -113,6 +136,13 @@ p {
 .naviButton {
     font-size: 36px;
     text-align: center;
+    text-decoration: underline;
+}
+
+.naviButton:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: linear-gradient(180deg, black 0%, white 100%);
 }
 
 .vectorAlign {
@@ -140,7 +170,7 @@ p {
     gap: 60px;
 }
 
-span{
+span {
     max-width: 600px;
 }
 
