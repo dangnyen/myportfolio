@@ -27,8 +27,8 @@ body {
 .menu {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start;
-    align-items: flex-end; */
+    justify-content: flex-start;
+    align-items: flex-end;
 
     position: absolute;
     width: 94px;
