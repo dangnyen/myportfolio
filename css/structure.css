@@ -1,4 +1,4 @@
-/* Responsive Structure Layout */
+/* Structure Layout */
 
 .content-grid {
     --padding-inline: 1rem;
@@ -29,66 +29,4 @@
     grid-column: full-width;
     display: grid;
     grid-template-columns: inherit;
-}
-
-/* Content Structure header, nav, and footer*/
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 3rem 2rem;
-}
-
-img{
-    max-width: 100%;
-    display: block;
-    object-fit: contain;
-}
-
-.logoPosition {
-    position: absolute;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    left: 2rem;
-    top: 3rem;
-}
-
-.logo{
-    position: sticky;
-    top: 0rem;
-}
-
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-
-    position: absolute;
-    height: 100vh;
-    right: 2rem;
-    top: 3rem;
-}
-
-.menuList {
-    position: sticky;
-    top: 0rem;
-}
-
-.naviScrollSet {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.vectorAlign {
-    display: flex;
-    justify-content: center;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
 }
