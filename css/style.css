@@ -17,6 +17,7 @@ h1 {
 h2 {
     font-size: 1.5rem;
     font-weight: 600;
+    margin-bottom: 1rem;
 }
 
 b {
@@ -25,8 +26,8 @@ b {
 
 p {
     font-size: 1rem;
-    letter-spacing: 1.25px;
-    line-height: 1.25em;
+    letter-spacing: 1px;
+    line-height: 1.25rem;
 }
 
 header {
@@ -46,7 +47,7 @@ img {
 footer {
     display: flex;
     justify-content: center;
-    padding-top: 6.25em;
+    padding-top: 6.25rem;
 }
 
 /* Navigations */
@@ -129,7 +130,7 @@ li {
     justify-content: center;
     gap: 1rem;
     margin-inline: 25%;
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
 }
 
 .main-work {
@@ -193,7 +194,7 @@ li {
 .heroSection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
+    gap: 1rem;
 
 }
 
@@ -219,17 +220,11 @@ li {
 }
 
 /* About philosophy */
-
-.philosophy {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3em;
-    margin: 5em 0em;
+.philosophy img {
+    width: 100%;
 }
 
-.philosophy2 {
+.philosophy {
     display: flex;
     flex-direction: row;
     justify-content: center;
