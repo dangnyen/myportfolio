@@ -181,16 +181,6 @@ li {
 }
 
 /* About start */
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    ;
-    gap: 2rem;
-    margin-bottom: 100px;
-}
-
 .heroSection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -216,6 +206,8 @@ li {
 
 .social-media {
     display: flex;
+    justify-content: center;
+    padding: 2.5rem;
     gap: 2.25rem;
 }
 
