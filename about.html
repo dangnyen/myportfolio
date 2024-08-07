@@ -13,11 +13,12 @@
         href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <title>About Me</title>
+    <link rel="icon" type="image/x-icon" href="/images/Logo.svg">
 </head>
 
 <body>
     
-    <header>
+    <header id="about-home" class="full-width">
         <div class="logoPosition">
             <img class="logo" src="images/Logo.svg">
         </div>
@@ -25,7 +26,7 @@
         <nav class="menu">
             <ul class="menuList">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="#about-home">About</a></li>
                 <li><a href="">Work</a></li>
                 <li><a href="">Resume</a></li>
                 <li><a href="">Contact</a></li>
@@ -35,7 +36,8 @@
     
     <main class="content-grid">
 
-        <section class="about-me-start">
+        <section id="about-start">
+            <article class="about-start">
             <div class="content">
                 
                 <div class="heroSection">
@@ -57,40 +59,45 @@
                         </p>
                     </div>
                 </div>
+                
                 <div class="social-media">
                     <img class="email" src="images/Email.svg"> <img class="linkedin" src="images/Linkedin.svg">
                 </div>
+                
                 <div class="naviScrollSet">
-                    <div class="naviButton"><a href="#philosophy">
+                    <a href="#philosophy" class="naviButton">
                             Design Philosophy<br>&amp; Skillset
-                        </a>
-                    </div>
+                    </a>
                     <span class="vectorAlign"><img class="vector" src="images/Vector 1.svg"></span>
                 </div>
             </div>
+            </article>
         </section>
 
-        <section class="about-me-philosophy">
-            <div class="philosophy" id="philosophy">
-                <span>
+        <section id="about-philosophy">
+            
+            <article class="philosophy">
+                <p>
                     With only 4 contact points (head, wrist, body, throat) to score in Kendo, you have to be creative to
                     score those points.
                     <b>Creativity is formed from limitations and constraints.</b>
                     Some of the most successful websites are simple ones that does it purpose well e.g. Google, Amazon,
                     YouTube, Netflix and Wikipedia.
                     <b>I believe that the beauty lies in making things simple and easy to use. The beauty in design.</b>
-                </span>
+                </p>
                 <img src="images/kendo2.png">
-            </div>
-            <div class="philosophy2">
+            </article>
+            
+            <article class="philosophy2">
                 <img src="images/kendo1.png">
-                <span>
+                <p>
                     Iterative Design involves continuous testing and refining based on feedback. In Kendo the concept
                     of Keiko (practice) embodies continuous improvement.
                     <b>Practitioners constantly refine their techniques and strategies through regular training, similar to
                         iterative processes in UX.</b>
-                </span>
-            </div>
+                </p>
+            </article>
+
         </section>
     
     </main>

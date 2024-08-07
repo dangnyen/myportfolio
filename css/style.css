@@ -11,41 +11,55 @@ body {
 h1 {
     font-size: 2rem;
     font-weight: 400;
+    letter-spacing: -1px;
 }
 
-b{
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+b {
     font-weight: 600;
 }
 
 p {
     font-size: 1rem;
     letter-spacing: 1.25px;
-    line-height: 1.5em;
+    line-height: 1.25em;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 3rem 2rem;
 }
 
-img{
+img {
     max-width: 100%;
+    height: auto;
     display: block;
     object-fit: contain;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 6.25em;
+}
+
+/* Navigations */
 .logoPosition {
     position: absolute;
-    height:200%;
+    height: 200%;
     display: flex;
     flex-direction: column;
     left: 2rem;
     top: 3rem;
 }
 
-.logo{
+.logo {
     position: sticky;
     top: 0rem;
 }
@@ -65,10 +79,13 @@ img{
 .menuList {
     position: sticky;
     top: 0rem;
-    list-style: none;
     font-size: 1.25rem;
     font-weight: 800;
     text-align: right;
+}
+
+li {
+    padding: 0.75em;
 }
 
 .naviScrollSet {
@@ -83,7 +100,7 @@ img{
     text-decoration: underline;
 }
 
-.naviButton:hover{
+.naviButton:hover {
     text-decoration: none;
     font-weight: 600;
     background-image: linear-gradient(180deg, black 0%, grey 100%);
@@ -96,40 +113,36 @@ img{
     justify-content: center;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-}
-
-/* Header Navigation */
-li {
-    padding: 0.75em;
-}
-
-li:hover{
-    text-decoration: underline;
-}
-
 /* Sections */
-.main-start{
+.main-start {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10vh;
+    height: 100vh;
 }
 
-.main-about{
+.main-about {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    gap: 1rem;
+    margin-inline: 25%;
+    margin-bottom: 5em;
+}
+
+.main-work {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0em;
     gap: 1rem;
 }
-.about-me-start {
+
+.about-start {
     position: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .about-me-philosophy {
@@ -137,14 +150,42 @@ li:hover{
     flex-direction: column;
 }
 
-/* About me start */
+/* Main start */
+.work-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-height: 25vh;
+}
 
+.work-img {
+    border: 5px solid black;
+    border-radius: 15px;
+}
 
+.localise {
+    background-color: #F2FAFF;
+}
+
+.isc {
+    background-color: #FFF7F2;
+}
+
+.tea {
+    background-color: #F2FFF2;
+}
+
+/* About start */
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
+    ;
     gap: 2rem;
     margin-bottom: 100px;
 }
@@ -177,17 +218,15 @@ li:hover{
     gap: 2.25rem;
 }
 
-
-
-/* About me Philosophy */
+/* About philosophy */
 
 .philosophy {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 24px;
-    gap: 60px;
+    gap: 3em;
+    margin: 5em 0em;
 }
 
 .philosophy2 {
@@ -195,6 +234,6 @@ li:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 24px;
-    gap: 60px;
+    gap: 3em;
+    margin: 5em 0em;
 }

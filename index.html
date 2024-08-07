@@ -13,20 +13,21 @@
         href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/Logo.svg">
 </head>
 
 <body>
 
-    <header class="full-width">
+    <header id="main-home" class="full-width">
         <div class="logoPosition">
             <img class="logo" src="images/Logo.svg">
         </div>
         <h1>Welcome to my Cosmos</h1>
         <nav class="menu">
             <ul class="menuList">
-                <li><a href="">Home</a></li>
+                <li><a href="#main-home">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="">Work</a></li>
+                <li><a href="#main-work">Work</a></li>
                 <li><a href="">Resume</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
@@ -34,16 +35,17 @@
     </header>
 
     <main class="content-grid">
+        
         <section id="main-start">
-                <article class="main-start">
-                    <img src="images/Koi.png">
-                    <div class="naviScrollSet">
-                        <div class="naviButton">
-                            Explore
-                        </div>
-                        <span class="vectorAlign"><img class="vector" src="images/Vector 1.svg"></span>
-                    </div>
-                </article>
+            <article class="main-start">
+                <img src="images/Koi.png">
+                <div class="naviScrollSet">
+                    <a href="#main-about" class="naviButton">
+                        Explore
+                    </a>
+                    <span class="vectorAlign"><img class="vector" src="images/Vector 1.svg"></span>
+                </div>
+            </article>
         </section>
 
         <section id="main-about">
@@ -57,40 +59,46 @@
         </section>
 
         <section id="main-work">
-            
             <h1>My Work</h1>
 
-            <article>
-                <img src="images/localise.png">
-                <h1>Localise</h1>
-                <span>
-                    A mobile travel app gives locals who knows more about the area and good places that they themselves
-                    would go
-                    to the power to curate for the travelers.
-                </span>
-            </article>
+            <article class="main-work">
+                <section class="work-content localise">
+                    <img class="work-img" src="images/localise.png">
+                    <div class="work-info">
+                        <h2>Localise</h2>
+                        <p>
+                            A mobile travel app gives locals who knows more about the area and good places that they themselves
+                            would go
+                            to the power to curate for the travelers.
+                        </p>
+                    </div>
+                </section>
 
-            <article>
-                <h1>Indigenous Services Canada Redesign</h1>
-                <span>
-                    Indigenous Services Canada is part of the government website. The pages were too overwhelming and
-                    too
-                    corporate. My take on this case is to beautify it adding colours and better navigation.
-                </span>
-                <img src="images/ISCMB.png">
-                <img src="images/ISCDesktop.png">
-            </article>
+                <section class="work-content isc">
+                    <div class="work-info">
+                        <h2>Indigenous Services Canada Redesign</h2>
+                        <p>
+                            Indigenous Services Canada is part of the government website. The pages were too overwhelming and
+                            too
+                            corporate. My take on this case is to beautify it adding colours and better navigation.
+                        </p>
+                    </div>
+                    <img class="work-img" src="images/ISCMB.png">
+                    <img class="work-img" src="images/ISCDesktop.png">
+                </section>
 
-            <article>
-                <h1>TEA Website Design</h1>
-                <span>
-                    The goal of this project is to identify usability issues with the navigation and layout as well
-                    implementing features for higher retention in supporters&#x2019 participation.
-                </span>
-                <img src="images/TEAMB.png">
-                <img src="images/TEADesktop.png">
+                <section class="work-content tea">
+                    <div class="work-info">
+                        <h2>TEA Website Design</h2>
+                        <p>
+                            The goal of this project is to identify usability issues with the navigation and layout as well
+                            implementing features for higher retention in supporters&#x2019 participation.
+                        </p>
+                    </div>
+                    <img class="work-img" src="images/TEAMB.png">
+                    <img class="work-img" src="images/TEADesktop.png">
+                </section>
             </article>
-
         </section>
     </main>
     
