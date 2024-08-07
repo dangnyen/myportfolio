@@ -22,9 +22,9 @@
         <h1>Contact Me</h1>
         <nav class="menu">
             <ul class="menuList">
-                <li><a href="#main-home">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#main-work">Work</a></li>
+                <li><a href="index.html#main-work">Work</a></li>
                 <li><a href="https://drive.google.com/file/d/130oU2wYhmC-8C-O0Ejtz-h81UTxWoB0p/view?usp=drive_link">
                     Resume
                 </a></li>
@@ -34,9 +34,23 @@
     </header>
 
     <main class="content-grid">
-        <section id="contact" class="breakout">
+        <section id="contact">
             <article class="contact">
                 <img src="images/zengarden.png">
+                <div>
+                    <h2>
+                        Get in touch! My email is dangnyen@hotmail.com
+                    </h2>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write me anything..."></textarea>
+                    <label for="fName">First Name</label>
+                    <input type="text" id="fName" name="firstname" placeholder="Your first name">
+                    <label for="lName">Last Name</label>
+                    <input type="text" id="lName" name="lastname" placeholder="Your last name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email">
+                    <button>Send Message</button>
+                </div>
             </article>
         </section>
     </main>
