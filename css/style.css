@@ -41,7 +41,7 @@ header {
 img {
     max-width: 100%;
     height: auto;
-    display: block;
+    display: flex;
     object-fit: contain;
 }
 
@@ -121,7 +121,7 @@ li {
     flex-direction: column;
     align-items: center;
     gap: 10vh;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .main-about {
@@ -144,12 +144,16 @@ li {
 .about-start {
     position: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .about-me-philosophy {
     position: flex;
     flex-direction: column;
+}
+
+.contact {
+    min-height: 100vh;
 }
 
 /* Main start */
@@ -231,11 +235,11 @@ li {
 .contact {
     display: flex;
     flex-direction: row;
-    gap: 2rem;  
+    gap: 2rem;
+    height: 100%;
 }
 
 .contact img {
-    width: 30vh;
 }
 
 .contact div {
@@ -257,12 +261,11 @@ div label {
 }
 
 div input {
-    height: 2rem;
-    padding: 0rem 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
 }
 
 div textarea {
-    height: 20%;
+    height: 100%;
     border-radius: 5px;
 }
