@@ -41,8 +41,6 @@ header {
 img {
     max-width: 100%;
     height: auto;
-    display: flex;
-    object-fit: contain;
 }
 
 footer {
@@ -142,18 +140,21 @@ li {
 }
 
 .about-start {
-    position: flex;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 .about-me-philosophy {
-    position: flex;
+    display: flex;
     flex-direction: column;
 }
 
 .contact {
+    display: flex;
+    flex-direction: row;
     min-height: 100vh;
+    gap: 2rem;
 }
 
 /* Main start */
@@ -171,6 +172,10 @@ li {
 .work-img {
     border: 5px solid black;
     border-radius: 15px;
+}
+
+.localise img{
+    scale: 0.8;
 }
 
 .localise {
@@ -217,35 +222,27 @@ li {
 }
 
 /* About philosophy */
-.philosophy img {
-    width: 100%;
-}
-
 .philosophy {
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
     margin: 5rem 0rem;
 }
 
 /* Contact */
-.contact {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    height: 100%;
-}
-
-.contact img {
-}
-
 .contact div {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
+}
+
+.contact img {
+    width: 20vw;
+    height: 100%;
 }
 
 div button {
@@ -261,11 +258,12 @@ div label {
 }
 
 div input {
-    padding: 0.5rem 1rem;
+    padding: 0.5em 1em;
     border-radius: 5px;
 }
 
 div textarea {
-    height: 100%;
+    height: 40%;
+    padding: 0.5em 1em;
     border-radius: 5px;
 }
