@@ -273,32 +273,57 @@ div textarea {
 }
 
 /* RWD Media Queries */
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 1200px) {
+    .mainHeight {
+        min-height: 300vh;
+    }
+
+    .aboutHeight{
+        min-height: 200vh;
+    }
+
+    .contactHeight{
+        min-height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
     /* Navigation */
     header {
+        display: flex;
+        flex-wrap: row wrap;
         position: sticky;
         background-color: black;
         color: white;
+        
     }
     .logoPosition {
-        
+        position: initial;
     }
     
     .logo {
-        
+        position: initial;
     }
     
     .menu {
-        height: initial;
         position: initial;
-        display: flex;
-        flex-direction: row;
-        
+        padding-block-start: 1rem;
+        margin-block-end: 1rem;
     }
     
     .menuList {
+        position: initial;
         font-size: 1rem;
         font-weight: 800;
-        text-align: right;
+        text-align: center;
+    }
+
+    .menuList li {
+        display: inline;
+
+    }
+    .main-about{
+        margin-inline: 3rem;
     }
 }
+
