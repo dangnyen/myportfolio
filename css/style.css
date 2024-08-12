@@ -34,13 +34,16 @@ p {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 3rem 2rem;
+    justify-items: center;
+    padding-block: 2rem;
+    margin-block-end: 5rem;
+    /* background-color: black;
+    color: white; */
 }
 
 img {
+    display: block;
     max-width: 100%;
-    height: auto;
 }
 
 footer {
@@ -150,8 +153,8 @@ li {
 
 .contact {
     display: flex;
-    flex-flow: row nowrap;
-    /* min-height: 100vh; */
+    flex-flow: row wrap;
+    min-height: 100vh;
     gap: 1rem;
 }
 
@@ -219,11 +222,19 @@ li {
 .philosophy {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: rem;
     margin: 5rem 0rem;
+}
+
+.philosophy p {
+    width: 60%;
+}
+
+.philosophy img {
+    scale: 0.8;
 }
 
 /* Contact */
@@ -234,7 +245,7 @@ li {
 }
 
 .contact img {
-    object-fit: contain;
+    height: 600px;
 }
 
 div button {
