@@ -37,8 +37,6 @@ header {
     justify-items: center;
     padding-block: 2rem;
     margin-block-end: 5rem;
-    /* background-color: black;
-    color: white; */
 }
 
 img {
@@ -272,4 +270,35 @@ div textarea {
     height: 6rem;
     padding: 0.5em 1em;
     border-radius: 5px;
+}
+
+/* RWD Media Queries */
+@media only screen and (max-width: 900px) {
+    /* Navigation */
+    header {
+        position: sticky;
+        background-color: black;
+        color: white;
+    }
+    .logoPosition {
+        
+    }
+    
+    .logo {
+        
+    }
+    
+    .menu {
+        height: initial;
+        position: initial;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .menuList {
+        font-size: 1rem;
+        font-weight: 800;
+        text-align: right;
+    }
 }
