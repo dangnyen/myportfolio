@@ -12,6 +12,7 @@ h1 {
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: -1px;
+    text-align: center;
 }
 
 h2 {
@@ -289,6 +290,10 @@ div textarea {
 
 @media only screen and (max-width: 1200px) {
     /* Navigation */
+    .mainHeight, .aboutHeight, .contactHeight {
+        min-height: initial;
+    }
+
     header {
         display: flex;
         flex-wrap: row wrap;
