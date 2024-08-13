@@ -34,10 +34,11 @@ p {
 a {
     text-decoration: none;
 }
+
 header {
     justify-items: center;
     padding-block: 2rem;
-    margin-block-end: 5rem;
+    margin-block-end: 3rem;
 }
 
 img {
@@ -114,11 +115,11 @@ li {
 }
 
 /* Sections */
-.main-start {
+.main-start, .about-start {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10vh;
+    /* gap: 10vh; */
     min-height: 100vh;
 }
 
@@ -139,11 +140,11 @@ li {
     gap: 1rem;
 }
 
-.about-start {
+/* .about-start {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+} */
 
 .about-me-philosophy {
     display: flex;
@@ -235,6 +236,7 @@ li {
 
 .philosophy img {
     scale: 0.8;
+    z-index: -1;
 }
 
 /* Contact */
@@ -300,7 +302,7 @@ div textarea {
         position: initial;
     }
 
-    #main-home, #main-start, #main-about, #main-work {
+    [id^="main-"],[id^="about-"] {
         scroll-margin-top: 10rem;
     }
 
