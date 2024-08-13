@@ -12,10 +12,9 @@ h1 {
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: -1px;
-    text-align: center;
 }
 
-h2 {
+h2, legend {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -32,9 +31,10 @@ p {
     line-height: 1.25rem;
 }
 
+a {
+    text-decoration: none;
+}
 header {
-    display: flex;
-    flex-direction: row;
     justify-items: center;
     padding-block: 2rem;
     margin-block-end: 5rem;
@@ -191,7 +191,6 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-
 }
 
 .leftContent {
@@ -220,8 +219,7 @@ li {
 /* About philosophy */
 .philosophy {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     margin: 2rem 0rem;
@@ -297,18 +295,24 @@ div textarea {
     }
 
     header {
-        display: flex;
-        flex-wrap: row wrap;
         background-color: black;
         color: white;
         position: sticky;
         top: 0;
         padding: initial;
     }
+
+    h1 {
+        text-align: center;
+        padding-block-end: 1rem;
+        order: 3;
+    }
+
     .logoPosition {
         position: initial;
+        order: 2;
     }
-    
+
     .logo {
         position: initial;
     }
@@ -317,6 +321,7 @@ div textarea {
         position: initial;
         padding-block-start: 1rem;
         margin-block-end: 1rem;
+        order: 1;
     }
     
     .menuList {
@@ -333,5 +338,9 @@ div textarea {
     .main-about{
         margin-inline: 3rem;
     }
+    .menuList a:visited{
+        color: white;
+    }
+
 }
 
