@@ -150,6 +150,7 @@ li {
     flex-flow: row wrap;
     min-height: 100vh;
     gap: 1rem;
+    justify-content: center;
 }
 
 /* Main start */
@@ -237,12 +238,10 @@ li {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    flex-grow: 999;
 }
 
 .contact img {
-    height: 600px;
-    flex-grow: 1;
+    max-height: 500px;
 }
 
 div button {
@@ -333,13 +332,18 @@ div textarea {
         display: inline;
 
     }
-    .main-about{
-        margin-inline: 3rem;
-    }
+
     .menuList a:visited{
         color: white;
     }
 
+    /* Main About */
+
+    .main-about{
+        margin-inline: 10%;
+    }
+
+    /* About Start */
     .heroSection {
         display: grid;
         grid-template-columns: initial;
@@ -352,5 +356,4 @@ div textarea {
     .heroSection p {
         text-align: center;
     }
-
 }
