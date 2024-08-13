@@ -119,7 +119,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 10vh; */
+    gap: 2rem;
     min-height: 100vh;
 }
 
@@ -139,12 +139,6 @@ li {
     padding: 1em 0em;
     gap: 1rem;
 }
-
-/* .about-start {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-} */
 
 .about-me-philosophy {
     display: flex;
@@ -215,7 +209,6 @@ li {
 .social-media {
     display: flex;
     justify-content: center;
-    padding: 2.5rem;
     gap: 2.25rem;
 }
 
