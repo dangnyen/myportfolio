@@ -296,6 +296,14 @@ div textarea {
         min-height: initial;
     }
 
+    .logoPosition, .logo, .menu, .menuList {
+        position: initial;
+    }
+
+    #main-home, #main-start, #main-about, #main-work {
+        scroll-margin-top: 10rem;
+    }
+
     header {
         background-color: black;
         color: white;
@@ -304,30 +312,23 @@ div textarea {
         padding: initial;
     }
 
-    h1 {
+    header > h1 {
         text-align: center;
         padding-block-end: 1rem;
         order: 3;
     }
 
     .logoPosition {
-        position: initial;
         order: 2;
-    }
-
-    .logo {
-        position: initial;
     }
     
     .menu {
-        position: initial;
         padding-block-start: 1rem;
         margin-block-end: 1rem;
         order: 1;
     }
     
     .menuList {
-        position: initial;
         font-size: 1rem;
         font-weight: 800;
         text-align: center;
