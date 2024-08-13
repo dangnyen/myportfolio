@@ -290,6 +290,8 @@ div textarea {
 
 @media only screen and (max-width: 1200px) {
     /* Navigation */
+    
+    /* N.B Very important for width==1200. Do not delete. */
     .mainHeight, .aboutHeight, .contactHeight {
         min-height: initial;
     }
@@ -297,10 +299,11 @@ div textarea {
     header {
         display: flex;
         flex-wrap: row wrap;
-        position: sticky;
         background-color: black;
         color: white;
-        
+        position: sticky;
+        top: 0;
+        padding: initial;
     }
     .logoPosition {
         position: initial;
