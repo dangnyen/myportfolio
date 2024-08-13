@@ -199,6 +199,7 @@ li {
     justify-content: space-between;
     align-items: center;
     padding: 0em 1em;
+    text-wrap: balance;
 }
 
 .rightContent {
@@ -207,6 +208,7 @@ li {
     justify-content: center;
     align-items: center;
     padding: 0em 1em;
+    text-wrap: balance;
 }
 
 .social-media {
@@ -277,11 +279,11 @@ div textarea {
         min-height: 300vh;
     }
 
-    .aboutHeight{
+    .aboutHeight {
         min-height: 200vh;
     }
 
-    .contactHeight{
+    .contactHeight {
         min-height: 100vh;
     }
 }
@@ -342,5 +344,17 @@ div textarea {
         color: white;
     }
 
-}
+    .heroSection {
+        display: grid;
+        grid-template-columns: initial;
+        grid-template-rows: 1fr auto 1fr;
+        align-self: center;
+        justify-items: center;
+        max-width: 80%;
+    }
 
+    .heroSection p {
+        text-align: center;
+    }
+
+}
