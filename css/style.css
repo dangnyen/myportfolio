@@ -10,14 +10,14 @@ body {
 }
 
 h1 {
-    color: #606060;
+    color: #444;
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: -1px;
 }
 
 h2, legend {
-    color: #606060;
+    color: #444;
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -33,7 +33,7 @@ p {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    color: #707070;
+    color: #555;
 }
 
 a {
@@ -306,7 +306,7 @@ div textarea {
     }
 
     header {
-        background-color: black;
+        background-color: #222;
         position: sticky;
         top: 0;
         padding: initial;
