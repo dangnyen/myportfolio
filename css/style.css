@@ -2,6 +2,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
+    /* color-scheme: dark light; */
 }
 
 body {
@@ -28,7 +29,7 @@ b {
 p {
     font-size: 1rem;
     letter-spacing: 1px;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
 }
 
 a {
@@ -309,10 +310,6 @@ div textarea {
     header > h1 {
         text-align: center;
         padding-block-end: 1rem;
-        order: 3;
-    }
-
-    .logoPosition {
         order: 2;
     }
     
