@@ -17,7 +17,7 @@ h1 {
 }
 
 h2, legend {
-    color: #444;
+    color: #555;
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -33,7 +33,7 @@ p {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    color: #555;
+    color: #444;
 }
 
 a {
@@ -135,6 +135,7 @@ li {
     gap: 1rem;
     margin-inline: 25%;
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 .main-work {
@@ -142,6 +143,10 @@ li {
     flex-direction: column;
     padding: 1em 0em;
     gap: 1rem;
+}
+
+.main-work fieldset:hover {
+    box-shadow: 1px 1px 2px #222;
 }
 
 .about-me-philosophy {
@@ -167,6 +172,17 @@ li {
     gap: 2rem;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.work-content p {
+    max-width: 75ch;
+}
+
+.work-content div {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .work-img {
@@ -292,7 +308,7 @@ div textarea {
 @media only screen and (max-width: 1200px) {
     /* Navigation */
     
-    /* N.B Very important for width==1200. Do not delete. */
+    /* N.B Important for width==1200. Do not delete. */
     .mainHeight, .aboutHeight, .contactHeight {
         min-height: initial;
     }
@@ -360,6 +376,7 @@ div textarea {
         text-align: center;
     }
     
+    /* Contact */
     .contact img {
         max-height: 200px;
     }
