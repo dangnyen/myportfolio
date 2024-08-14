@@ -22,6 +22,7 @@ h2, legend {
     font-weight: 600;
     margin-bottom: 1rem;
     text-wrap: balance;
+    text-align: center;
 }
 
 b {
@@ -357,5 +358,9 @@ div textarea {
 
     .heroSection p {
         text-align: center;
+    }
+    
+    .contact img {
+        max-height: 200px;
     }
 }
