@@ -10,12 +10,14 @@ body {
 }
 
 h1 {
+    color: #606060;
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: -1px;
 }
 
 h2, legend {
+    color: #606060;
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -30,6 +32,7 @@ p {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.5rem;
+    color: #707070;
 }
 
 a {
@@ -128,7 +131,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 1rem;
     margin-inline: 25%;
     margin-bottom: 5rem;
@@ -173,14 +175,17 @@ li {
 
 .localise {
     background-color: #F2FAFF;
+    border-color: #d0edff;
 }
 
 .isc {
     background-color: #FFF7F2;
+    border-color: #ffe0cd;
 }
 
 .tea {
     background-color: #F2FFF2;
+    border-color: #d8ffd8;
 }
 
 /* About start */
@@ -301,13 +306,13 @@ div textarea {
 
     header {
         background-color: black;
-        color: white;
         position: sticky;
         top: 0;
         padding: initial;
     }
 
     header > h1 {
+        color: white;
         text-align: center;
         padding-block-end: 1rem;
         order: 2;
@@ -337,7 +342,7 @@ div textarea {
     /* Main About */
 
     .main-about{
-        margin-inline: 10%;
+        margin-inline: 15%;
     }
 
     /* About Start */
