@@ -104,6 +104,7 @@ li {
     font-size: 2rem;
     text-align: center;
     text-decoration: underline;
+    max-width: 300px;
 }
 
 .naviButton:hover {
