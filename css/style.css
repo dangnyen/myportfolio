@@ -387,4 +387,16 @@ form textarea {
     .contact img {
         max-height: 200px;
     }
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: initial;
+        grid-template-rows: 1fr;
+    }
+
+    .contact-grid > #fNameLabel {order: 1;}
+    .contact-grid > #fName {order: 2;}
+    .contact-grid > #lNameLabel {order: 3;}
+    .contact-grid > #lName {order: 4;}
+    
 }
