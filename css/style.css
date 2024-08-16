@@ -168,7 +168,7 @@ li {
 /* Main start */
 
 .koi {
-    animation: swim 5s ease-in-out 1s infinite;
+    animation: swim 5s ease-in-out 1s forwards;
 }
 
 @keyframes swim {
