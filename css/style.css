@@ -387,7 +387,7 @@ form input:user-invalid, textarea:user-invalid {
 }
 
 /* RWD Media Queries */
-@media only screen and (min-width: 1200px) {
+@media only screen and (width >= 1200px) {
     .mainHeight {
         min-height: 300vh;
     }
@@ -401,13 +401,13 @@ form input:user-invalid, textarea:user-invalid {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (width < 1200px) {
     /* Navigation */
     
     /* N.B Important for width==1200. Do not delete. */
-    .mainHeight, .aboutHeight, .contactHeight {
+    /* .mainHeight, .aboutHeight, .contactHeight {
         min-height: initial;
-    }
+    } */
 
     .logoPosition, .logo, .menu, .menuList {
         position: initial;
