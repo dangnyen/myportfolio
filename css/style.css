@@ -166,6 +166,21 @@ li {
 }
 
 /* Main start */
+
+.koi {
+    animation: swim 5s ease-in-out 1s infinite;
+}
+
+@keyframes swim {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+/* Main work */
 .work-content {
     display: flex;
     flex-direction: row;
