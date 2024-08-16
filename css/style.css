@@ -403,11 +403,6 @@ form input:user-invalid, textarea:user-invalid {
 
 @media only screen and (width < 1200px) {
     /* Navigation */
-    
-    /* N.B Important for width==1200. Do not delete. */
-    /* .mainHeight, .aboutHeight, .contactHeight {
-        min-height: initial;
-    } */
 
     .logoPosition, .logo, .menu, .menuList {
         position: initial;
