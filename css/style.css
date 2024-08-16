@@ -372,12 +372,12 @@ form input, textarea {
     border-radius: 5px;
 }
 
-form input:user-valid {
-    outline: 1.5px solid green;
+form input:user-valid, textarea:user-valid {
+    outline: 2px solid green;
 }
 
-form input:user-invalid {
-    outline: 1.5px solid red;
+form input:user-invalid, textarea:user-invalid {
+    outline: 2px solid red;
 }
 
 .contact-grid {
