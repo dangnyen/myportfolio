@@ -288,8 +288,8 @@ li {
     justify-content: center;
     overflow: hidden;
     perspective: 1000px;
-    box-shadow: 0px 0px 5px rgba(211, 211, 211, 0.5);
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 0 0 5px rgba(211, 211, 211, 0.5), 1px 1px 5px 1px;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
   
 .card:hover {
@@ -387,7 +387,7 @@ form input:user-invalid, textarea:user-invalid {
 }
 
 /* RWD Media Queries */
-@media only screen and (min-width: 1200px) {
+@media only screen and (width >= 1200px) {
     .mainHeight {
         min-height: 300vh;
     }
@@ -401,14 +401,8 @@ form input:user-invalid, textarea:user-invalid {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (width < 1200px) {
     /* Navigation */
-    
-    /* N.B Important for width==1200. Do not delete. */
-    .mainHeight, .aboutHeight, .contactHeight {
-        min-height: initial;
-    }
-
     .logoPosition, .logo, .menu, .menuList {
         position: initial;
     }
