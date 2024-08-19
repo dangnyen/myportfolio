@@ -165,6 +165,13 @@ li {
     justify-content: center;
 }
 
+.localise-start .isc-start .tea-start {
+    display: flex;
+    flex-flow: row wrap;
+    justify-self: center;
+}
+
+
 /* Main start */
 
 .koi {
@@ -385,6 +392,8 @@ form input:user-invalid, textarea:user-invalid {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+
+/* tea */
 
 /* RWD Media Queries */
 @media only screen and (width >= 1200px) {
