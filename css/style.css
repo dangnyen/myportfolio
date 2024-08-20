@@ -168,10 +168,11 @@ li {
 
 .localise-start, .isc-start, .tea-start {
     display: flex;
-    justify-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 1rem;
+    gap: 1rem;
 }
-
 
 /* Main start */
 
@@ -396,8 +397,10 @@ form input:user-invalid, textarea:user-invalid {
 
 /* Case Studies */
 .mockupMB {
-    width: 142px;
-    height: 306px;
+    width: 100%;
+    max-width: 142px;
+    height: auto;
+    max-height: 306px;
 }
 
 .mockup {
