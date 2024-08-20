@@ -23,7 +23,6 @@ h2, legend {
     font-weight: 600;
     margin-block: 1rem;
     text-wrap: balance;
-    /* text-align: center; */
 }
 
 b {
@@ -406,11 +405,16 @@ form input:user-invalid, textarea:user-invalid {
 .mockup {
     width: 600px;
 }
+
  .case-content {
     background-color: white;
     border-radius: 2rem 2rem 0 0;   
     margin-block-start: 5rem;
     padding: 1em;
+ }
+
+ .construction {
+    justify-self: center;
  }
 /* RWD Media Queries */
 @media only screen and (width >= 1200px) {
@@ -510,5 +514,5 @@ form input:user-invalid, textarea:user-invalid {
     .contact-grid > #fName {order: 2;}
     .contact-grid > #lNameLabel {order: 3;}
     .contact-grid > #lName {order: 4;}
-    
+
 }
