@@ -129,6 +129,7 @@ li {
     align-items: center;
     gap: 2rem;
     min-height: 100vh;
+    margin-top: 1rem;
 }
 
 .main-about {
@@ -168,6 +169,7 @@ li {
 .localise-start, .isc-start, .tea-start {
     display: flex;
     justify-self: center;
+    margin-top: 1rem;
 }
 
 
