@@ -362,6 +362,7 @@ li {
 .contact img {
     max-height: 500px;
     margin-block: 1rem;
+    border-radius: 1rem;
 }
 
 form button {
