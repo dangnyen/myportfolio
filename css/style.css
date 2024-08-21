@@ -380,14 +380,22 @@ form label {
 form input, textarea {
     padding: 0.5em 1em;
     border-radius: 5px;
+    border: 2px solid;
 }
 
-form input:user-valid, textarea:user-valid {
-    outline: 2px solid green;
+form input:not(:placeholder-shown):valid, 
+    textarea:not(:placeholder-shown):valid {
+    border-color: green;
 }
 
-form input:user-invalid, textarea:user-invalid {
-    outline: 2px solid red;
+form input:not(:placeholder-shown):invalid, 
+    textarea:not(:placeholder-shown):invalid {
+    border-color: red;
+}
+
+form input:focus:invalid, 
+    textarea:focus:invalid{
+    border-color: orange;
 }
 
 .contact-grid {
