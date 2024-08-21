@@ -421,6 +421,7 @@ form input:focus:invalid,
     border-radius: 2rem 2rem 0 0;   
     margin-block-start: 5rem;
     padding: 1em;
+    box-shadow: 0 1px 5px;
  }
 
  .construction {
