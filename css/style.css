@@ -426,6 +426,7 @@ form input:focus:invalid,
  .construction {
     justify-self: center;
  }
+
 /* RWD Media Queries */
 @media only screen and (width >= 1200px) {
     .mainHeight {

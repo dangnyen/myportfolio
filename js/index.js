@@ -21,8 +21,11 @@
 //     })
 // })
 
-
 // Accessibility Theme Switch
+
+// const themeSwitch = document.querySelector("[data-theme-picker");
+
+// themeSwitch
 
 // Contact Form Input
 
