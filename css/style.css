@@ -380,22 +380,22 @@ form label {
 form input, textarea {
     padding: 0.5em 1em;
     border-radius: 5px;
-    border: 2px solid;
+    outline: 2px solid transparent;
 }
 
 form input:not(:placeholder-shown):valid, 
     textarea:not(:placeholder-shown):valid {
-    border-color: green;
+    outline-color: green;
 }
 
 form input:not(:placeholder-shown):invalid, 
     textarea:not(:placeholder-shown):invalid {
-    border-color: red;
+    outline-color: red;
 }
 
 form input:focus:invalid, 
     textarea:focus:invalid{
-    border-color: orange;
+    outline-color: orange;
 }
 
 .contact-grid {
