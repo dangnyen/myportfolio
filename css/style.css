@@ -36,6 +36,10 @@ p {
     color: #444;
 }
 
+p + p {
+    margin-top: 1rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -358,6 +362,32 @@ form input:focus:invalid,
  .construction {
     justify-self: center;
  }
+
+.center-text {
+    text-align: center;
+}
+
+.table-style {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-style td, .table-style th {
+    border: 1px solid #ddd;
+    padding: 1em;
+}
+
+.table-style th {
+    padding: 1em;
+    background-color: #d8ffd8;
+    width: max-content;
+}
+
+.box-style {
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 1em;
+}
 
 /* RWD Media Queries */
 
