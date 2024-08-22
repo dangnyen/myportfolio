@@ -40,11 +40,6 @@ a {
     text-decoration: none;
 }
 
-header {
-    justify-items: center;
-    padding-block: 2rem;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -56,76 +51,12 @@ footer {
     margin-top: 2rem;
 }
 
-/* Navigations */
-.logoPosition {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    left: 2rem;
-    top: 3rem;
-    z-index: 99;
-}
-
-.logo {
-    position: sticky;
-    top: 0rem;
-}
-
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    z-index: 99;
-
-    position: absolute;
-    right: 2rem;
-    top: 3rem;
-}
-
-.menuList {
-    position: sticky;
-    top: 0rem;
-    font-size: 1.25rem;
-    font-weight: 800;
-    text-align: right;
-}
-
-li {
-    padding: 0.75em;
-}
-
-.naviScrollSet {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.naviButton {
-    font-size: 2rem;
-    text-align: center;
-    text-decoration: underline;
-    max-width: 300px;
-}
-
-.naviButton:hover {
-    text-decoration: none;
-    font-weight: 600;
-    background-image: linear-gradient(180deg, black 0%, grey 100%);
-    color: transparent;
-    background-clip: text;
-}
-
-.vectorAlign {
-    display: flex;
-    justify-content: center;
-}
-
 /* Sections */
 .main-start, .about-start {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 2rem;
     min-height: 100vh;
     margin-top: 1rem;
@@ -429,66 +360,8 @@ form input:focus:invalid,
  }
 
 /* RWD Media Queries */
-@media only screen and (width >= 1200px) {
-    .mainHeight {
-        min-height: 300vh;
-    }
-
-    .aboutHeight {
-        min-height: 200vh;
-    }
-
-    .contactHeight {
-        min-height: 100vh;
-    }
-}
 
 @media only screen and (width < 1200px) {
-    /* Navigation */
-    .logoPosition, .logo, .menu, .menuList {
-        position: initial;
-    }
-
-    [id^="main-"],[id^="about-"] {
-        scroll-margin-top: 10rem;
-    }
-
-    header {
-        position: sticky;
-        top: 0;
-        padding: initial;
-        background-color: #222;
-        box-shadow: 0px 4px 8px black;
-        z-index: 99;
-    }
-
-    header > h1 {
-        color: white;
-        text-align: center;
-        padding-block-end: 1rem;
-        order: 2;
-    }
-    
-    .menu {
-        padding-block-start: 1rem;
-        margin-block-end: 1rem;
-        order: 1;
-    }
-    
-    .menuList {
-        font-size: 1rem;
-        font-weight: 800;
-        text-align: center;
-    }
-
-    .menuList li {
-        display: inline;
-
-    }
-
-    .menuList a:visited{
-        color: white;
-    }
 
     /* Main About */
 

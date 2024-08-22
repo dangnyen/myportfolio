@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/index.js" async></script>
     <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/navigation.css" rel="stylesheet" type="text/css">
     <link href="css/structure.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,13 +32,9 @@
     <header id="contact-home" class="content-grid">
         
         <a href="index.html">
-            <picture class="logoPosition contactHeight">
-                <source class="logo" media="(width < 1200px)" srcset="images/Logowhite.svg">
-                <img class="logo" src="images/Logo.svg" alt="DN Logo">
-            </picture>
+            <img class="logo" src="images/Logowhite.svg" alt="DN Logo">
         </a>
 
-        <h1>Contact Me</h1>
         <nav class="menu contactHeight">
             <ul class="menuList">
                 <li><a href="index.html">Home</a></li>
@@ -53,34 +50,37 @@
 
     <main class="content-grid">
         <section id="contact">
+            
             <article class="contact">
-                
-                <picture>
-                    <source media="(width >= 1200px)" srcset="images/zengarden.png">
-                    <source media="(width < 1200px)" srcset="images/zengarden2.png">
-                    <img src="images/zengarden.png" alt="Zen Garden">
-                </picture>
-                
-                <form action="https://api.web3forms.com/submit" method="POST">
-                    <h2>
-                        Get in touch! My email is dangnyen@hotmail.com
-                    </h2>
-                    <input type="hidden" name="access_key" value="a4d7ce46-f677-450e-b15b-e14152ba9362">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="Subject here" required>
-                    <label for="message">Message</label>
-                    <textarea id="message" rows="6" name="message" placeholder="Write me anything..." required></textarea>
-                    <div class="contact-grid">
-                        <label id="fNameLabel" for="fName">First Name</label>
-                        <label id="lNameLabel" for="lName">Last Name</label>
-                        <input type="text" id="fName" name="firstname" placeholder="Your first name" required>
-                        <input type="text" id="lName" name="lastname" placeholder="Your last name" required>
-                    </div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your email" required>
-                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                    <button type="submit">Send Message</button>
-                </form>
+                <h1>Contact Me</h1>
+                <section class="contact">
+                    <picture>
+                        <source media="(width >= 1200px)" srcset="images/zengarden.png">
+                        <source media="(width < 1200px)" srcset="images/zengarden2.png">
+                        <img src="images/zengarden.png" alt="Zen Garden">
+                    </picture>
+                    
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <h2>
+                            Get in touch! My email is dangnyen@hotmail.com
+                        </h2>
+                        <input type="hidden" name="access_key" value="a4d7ce46-f677-450e-b15b-e14152ba9362">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject here" required>
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" name="message" placeholder="Write me anything..." required></textarea>
+                        <div class="contact-grid">
+                            <label id="fNameLabel" for="fName">First Name</label>
+                            <label id="lNameLabel" for="lName">Last Name</label>
+                            <input type="text" id="fName" name="firstname" placeholder="Your first name" required>
+                            <input type="text" id="lName" name="lastname" placeholder="Your last name" required>
+                        </div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
             </article>
         </section>
     </main>

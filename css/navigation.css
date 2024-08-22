@@ -1,0 +1,67 @@
+:root {
+    font-size: 16px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #222;
+    box-shadow: 0px 4px 8px black;
+    z-index: 99;
+    justify-items: center;
+    padding-block-start: 0.75em;
+}
+
+[id^="main-"],[id^="about-"] {
+    scroll-margin-top: 10rem;
+}
+
+.menu {
+    padding-block-start: 1rem;
+    margin-block-end: 1rem;
+    order: 1;
+}
+
+.menuList {
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+li {
+    padding: 0.75em;
+}
+
+.menuList li {
+    display: inline;
+}
+
+.menuList a:visited{
+    color: white;
+}
+
+.naviScrollSet {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.naviButton {
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    max-width: 300px;
+}
+
+.naviButton:hover {
+    text-decoration: none;
+    font-weight: 600;
+    background-image: linear-gradient(180deg, black 0%, grey 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+.vectorAlign {
+    display: flex;
+    justify-content: center;
+}
