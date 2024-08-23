@@ -389,6 +389,13 @@ form input:focus:invalid,
     padding: 1em;
 }
 
+.zoom {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(2);
+}
 /* RWD Media Queries */
 
 @media only screen and (width < 1200px) {
