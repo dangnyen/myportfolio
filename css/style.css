@@ -370,6 +370,11 @@ form input:focus:invalid,
 .table-style {
     table-layout: fixed;
     width: 100%;
+    margin-block-end: 1rem;
+}
+
+.overflow {
+    overflow-x: auto;
 }
 
 .table-style td, .table-style th {
@@ -387,6 +392,7 @@ form input:focus:invalid,
     border: 1px solid;
     border-radius: 0.5rem;
     padding: 1em;
+    margin-block-end: 1rem;
 }
 
 .zoom {
@@ -394,7 +400,7 @@ form input:focus:invalid,
 }
 
 .zoom:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 /* RWD Media Queries */
 
