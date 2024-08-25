@@ -419,13 +419,15 @@ form input:focus:invalid,
         align-self: center;
         justify-items: center;
         max-width: 80%;
-        margin-top: 1rem;
     }
 
     .heroSection p {
         text-align: center;
     }
     
+    .rightContent {
+        display: initial;
+    }
     /* Contact */
     .contact img {
         max-height: 200px;
