@@ -365,6 +365,7 @@ form input:focus:invalid,
 
 .center-text {
     text-align: center;
+    margin-block-start: 1rem;
 }
 
 .table-style {
