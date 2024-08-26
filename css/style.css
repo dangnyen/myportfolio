@@ -98,6 +98,7 @@ footer {
     min-height: 100vh;
     gap: 1rem;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .localise-start, .isc-start, .tea-start {
