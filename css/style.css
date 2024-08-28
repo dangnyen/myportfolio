@@ -218,6 +218,7 @@ footer {
     flex-wrap: wrap;
     gap: 3rem;
     justify-content: center;
+    padding-block: 1em;
 }
   
 .card {
