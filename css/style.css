@@ -49,6 +49,11 @@ img {
     height: auto;
 }
 
+address {
+    display: block;
+    font-style: italic;
+}
+
 footer {
     display: flex;
     justify-content: center;
