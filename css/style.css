@@ -462,6 +462,9 @@ form input:focus:invalid,
     .list2 {
         columns: initial;
     }
+    .footer {
+        max-width: 420px;
+    }
 }
 
 @media only screen and (width > 600px) {
