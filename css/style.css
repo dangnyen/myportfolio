@@ -57,6 +57,7 @@ address {
 footer {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 2rem;
 }
 
@@ -462,9 +463,7 @@ form input:focus:invalid,
     .list2 {
         columns: initial;
     }
-    .footer {
-        max-width: 420px;
-    }
+
 }
 
 @media only screen and (width > 600px) {
