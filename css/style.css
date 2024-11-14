@@ -58,6 +58,7 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    text-wrap: balance;
     margin-top: 2rem;
 }
 
