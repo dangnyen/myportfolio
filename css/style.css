@@ -409,7 +409,7 @@ form input:focus:invalid,
     transition: transform 0.3s ease-in-out;
 }
 
-.zoom:hover {
+.zoom:active {
     transform: scale(1.5);
 }
 
